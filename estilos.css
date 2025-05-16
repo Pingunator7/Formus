@@ -1,0 +1,86 @@
+body {
+    background: #414649;
+    font-family: 'Segoe UI', sans-serif;
+}
+.card {
+    background: #f8f9f9;
+    border-radius: 10px;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+    max-width: 700px;
+    margin: 32px auto;
+    padding: 40px 45px 32px 45px;
+}
+.card h2 {
+    margin-top: 0;
+    font-size: 2.2rem;
+    font-weight: 500;
+    color: #333;
+}
+.form-group {
+    margin-bottom: 28px;
+}
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 1.2rem;
+    color: #333;
+}
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 18px 16px;
+    border: 1px solid #e2e8f0;
+    border-radius: 4px;
+    font-size: 1.1rem;
+    background: #fafbfc;
+    color: #333;
+    margin-bottom: 0;
+}
+input[type="email"]::placeholder {
+    color: #b0b7c3;
+}
+.checkbox-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 32px;
+}
+.checkbox-group input[type="checkbox"] {
+    width: 22px;
+    height: 22px;
+    margin-right: 12px;
+}
+.checkbox-group label {
+    margin: 0;
+    color: #b0b7c3;
+    font-size: 1.15rem;
+    font-weight: 400;
+}
+.form-actions {
+    display: flex;
+    gap: 16px;
+}
+.btn {
+    padding: 12px 38px;
+    border: none;
+    border-radius: 6px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    font-weight: 500;
+}
+.btn-primary {
+    background: #8b5cf6;
+    color: #fff;
+    transition: background 0.2s;
+}
+.btn-primary:hover {
+    background: #7c3aed;
+}
+.btn-secondary {
+    background: #fff;
+    color: #333;
+    border: 1px solid #e2e8f0;
+    transition: background 0.2s;
+}
+.btn-secondary:hover {
+    background: #f3f4f6;
+}
